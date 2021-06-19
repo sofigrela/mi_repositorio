@@ -93,6 +93,9 @@ p{
     width: 100%;
     grid-area: titulodelivery;
     padding: 20px;
+    background-image: linear-gradient(to bottom,rgb(255,230, 123),white );
+    background-position: center;
+    padding: 30px;
 }
 
 .fotoDelivery{
@@ -368,15 +371,6 @@ h2{
     transform: scale(1.5,1.5);
 }
 
-gradient{
-    background-image: linear-gradient(to bottom,rgb(255,230, 123),white );
-    background-position: center;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-
-}
-
 .contenedorcontacto{
     font-family: Nunito;
     display: flex;
@@ -405,5 +399,8 @@ gradient{
 
 .titulo{
     display: flex;
-    justify-content: center;  
+    justify-content: center;
+    background-image: linear-gradient(to bottom,rgb(255,230, 123),white );
+    background-position: center;
+    padding: 30px;  
 }
